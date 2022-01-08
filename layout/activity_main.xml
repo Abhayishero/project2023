@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/signin2">
+
+
+    <EditText
+
+        android:id="@+id/edittext1"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:inputType="phone"
+        android:background="@drawable/blank"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+
+        android:paddingBottom="10dp"
+        android:hint="@string/phone_number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/blank"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/edittext2"
+        android:paddingBottom="10dp"
+        android:hint="@string/password"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_below="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        />
+
+
+    <Button
+     android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="320dp"
+    android:layout_marginTop="430dp"
+    android:backgroundTint="#16E3FD"
+    android:id="@+id/button1"
+
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="250dp"
+       android:layout_marginTop="490dp"
+        android:layout_marginBottom="320dp"
+        android:src="@drawable/recbut" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="508dp"
+        android:layout_marginLeft="270dp"
+        android:background="@drawable/roundbar"
+        />
+
+</RelativeLayout>
